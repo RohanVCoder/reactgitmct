@@ -1,0 +1,89 @@
+h1{
+    color: aqua;
+    text-align: center;
+}
+h2{
+    color: orange;
+    text-align: center;
+}
+h3{
+    color: aquamarine;
+    text-align: center;
+}
+h4{
+    color: lightgrey;
+    text-align: center;
+}
+p{
+    color: orange;
+    text-align: justify;
+}
+.main_title{
+    color: aquamarine;
+    font-size: xx-large;
+}
+.btn-info{
+    width: 250px;
+    font-weight: bold;
+}
+*{
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+footer{
+    background-color: #2d353b;
+    width:100%;
+    padding: 20px 20px 20px 20px;
+    border-top: 2px solid aqua;
+}
+.footer-img{
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+hr{
+    color: #979696;
+}
+.quiz_div{
+    background-color: #2f2f2f;
+    width: 600px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+.check-form-box{
+    font-size: x-large;
+    font-weight: bold;
+    color: aqua;
+}
+.context-menu {
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    background: #1e262a;
+    font-size: x-large;
+    box-shadow: 0px 0px 10px red;
+}
+
+.context-menu ul {
+    padding: 0px;
+    margin: 0px;
+    min-width: 200px;
+    list-style: none;
+}
+
+.context-menu ul li {
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.context-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.context-menu ul li:hover {
+    background: #1a1d20;
+    border-radius: 10px;
+}
